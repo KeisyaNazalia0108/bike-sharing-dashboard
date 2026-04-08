@@ -19,8 +19,6 @@ Analisis difokuskan pada pengaruh musim, kondisi cuaca, serta pola penggunaan be
 * Pada hari kerja, peminjaman lebih tinggi pada jam berangkat dan pulang kerja.
 
 ## Struktur Direktori
-
-## 📁 Struktur Direktori
 ```
 submission/
 ├── dashboard/
