@@ -6,14 +6,10 @@ Proyek ini bertujuan untuk menganalisis pola peminjaman sepeda menggunakan Bike 
 
 Analisis difokuskan pada pengaruh musim, kondisi cuaca, serta pola penggunaan berdasarkan waktu (jam operasional dan tipe hari). Dataset ini menunjukkan bahwa peminjaman sepeda dipengaruhi oleh faktor lingkungan seperti cuaca, musim, dan waktu penggunaan.
 
----
-
 ## Pertanyaan Bisnis
 
 1. Bagaimana pengaruh musim dan kondisi cuaca terhadap rata-rata jumlah peminjaman sepeda selama tahun 2011–2012?
 2. Bagaimana pola peminjaman sepeda berdasarkan jam operasional, serta bagaimana perbedaannya antara hari kerja dan hari libur selama tahun 2011–2012?
-
----
 
 ## Insight Utama
 
@@ -22,10 +18,10 @@ Analisis difokuskan pada pengaruh musim, kondisi cuaca, serta pola penggunaan be
 * Terdapat pola jam sibuk pada pagi dan sore hari.
 * Pada hari kerja, peminjaman lebih tinggi pada jam berangkat dan pulang kerja.
 
----
-
 ## Struktur Direktori
 
+## 📁 Struktur Direktori
+```
 submission/
 ├── dashboard/
 │   ├── dashboard.py
@@ -37,9 +33,7 @@ submission/
 ├── README.md
 ├── requirements.txt
 └── url.txt
-
----
-
+```
 ## Setup Environment
 
 ### Menggunakan Anaconda
@@ -52,16 +46,12 @@ pip install -r requirements.txt
 
 pip install -r requirements.txt
 
----
-
 ## Menjalankan Notebook
 
 jupyter notebook
 
 Kemudian buka file:
 notebook.ipynb
-
----
 
 ## Menjalankan Dashboard (Local)
 
@@ -71,14 +61,10 @@ streamlit run dashboard/dashboard.py
 
 Dashboard akan otomatis terbuka di browser.
 
----
-
 ## Akses Dashboard Online
 
 Link dashboard dapat dilihat pada file:
 url.txt
-
----
 
 ## Library yang Digunakan
 
@@ -87,8 +73,6 @@ url.txt
 * matplotlib
 * seaborn
 * streamlit
-
----
 
 ## Author
 
